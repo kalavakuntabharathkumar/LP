@@ -1,14 +1,17 @@
 # LinuxPulse — Linux Application Health & Incident Monitoring System
 
-Linux-oriented application health monitoring and incident classification platform using Python, FastAPI, SQLite, SQLAlchemy, Linux/Bash, HTML/CSS/JavaScript and REST APIs.
+A support-oriented Linux application health and incident triage platform using Python, FastAPI, SQLite, SQLAlchemy, Linux/Bash, HTML/CSS/JavaScript and REST APIs.
 
 ## Features
 - CPU, memory, disk, process and port health collection
-- Rule-based incident classification
-- Incident history in SQLite
+- Rule-based incident classification and severity assessment
+- Incident history in SQLite with status and resolution notes
 - Bash diagnostic health-check script
-- REST API and browser dashboard
+- Incident assignment and source tracking for support workflows
+- REST API with filtering and browser dashboard
 - Deterministic validation tests
+
+The incident workflow is designed to mirror common technical-support triage patterns; it does not claim a live integration with Jira Service Management, ServiceNow, Zendesk, or Freshdesk.
 
 ## Run
 
